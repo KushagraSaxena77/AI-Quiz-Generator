@@ -4,6 +4,21 @@
 
 https://drive.google.com/drive/folders/1f1UwPM0iprVq7CcR7U2K9JXclkCVoBOb?usp=sharing
 ---
+
+# About 
+
+The AI Quiz Generator is designed to leverage OpenAI's ChatGPT API to create customizable multiple-choice quizzes. This allows users to define the language, topic, and difficulty of the quiz, making it a versatile tool for varied educational and entertainment purposes. The application enhances user experience with a loading screen displaying random facts and an end screen featuring score-based gifs and messages.
+
+
+This system implements several features to deliver an engaging quiz experience:
+- **Customizable Quizzes**: Users can select the language, topic, difficulty, and number of questions.
+- **Interactive Loading Screen**: Displays live response streams and random facts to keep users entertained during data retrieval.
+- **Ed-style Multiple Choice Quiz**: Includes explanations and a progress bar to enhance learning.
+- **Dynamic End Screen**: Features gifs, sarcastic messages, and confetti based on quiz scores.
+- **Kahoot-style Audio Player**: Contains 14 tracks to entertain users during the quiz.
+
+Technologies used include Next.js 13.4 with the new App router, Tailwind CSS, and OpenAI's `gpt-3-turbo` API. The repository also utilizes various packages like `framer-motion` for animations, `highlight.js` for syntax highlighting, `react-confetti`, `react-loader-spinner`, `react-icons`, `react-use` for the `useAudio()` hook, and `react-simple-typewriter`.For development and deployment, tools like `create-next-app` and Vercel are used. The OpenAI integration involves custom prompt engineering to ensure responses are in JSON format, optimizing the API query for the best results.
+
 ![home-page](https://github.com/user-attachments/assets/90bad36f-e947-444a-bf57-6eaf1eb72618)
 
 ## Features
